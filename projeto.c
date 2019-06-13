@@ -5,7 +5,7 @@ int soma(int a, int b){
 }
 
 int subtracao(int a, int b){
-	int sub = a/b;
+	int sub = a-b;
 	return sub;	
 }
 
@@ -14,9 +14,16 @@ int multiplicacao(int a, int b){
 	return mult;	
 }
 
+int divisao(int a, int b){
+	int div = a/b;
+	return div;	
+}
+
 int main(){
-	printf("Soma dos dois números: %d\n",soma (5,5));
-	printf("Subtracao dos dois números: %d\n",subtracao (5,5));
-	printf("Multiplicacao dos dois números: %d\n",multiplicacao (5,5));
+	
+	printf("Soma dos dois numeros: %d\n",soma (5,5));
+	printf("Subtracao dos dois numeros: %d\n",subtracao (5,5));
+	printf("Multiplicacao dos dois numeros: %d\n",multiplicacao (5,5));
+	printf("Divisao dos dois numeros: %d\n",multiplicacao (5,5));
 	return 0;
 }
