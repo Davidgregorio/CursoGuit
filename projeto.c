@@ -17,14 +17,9 @@ int multiplicacao(int a, int b){
 int divisao(int a, int b){
 	
 		int div = a/b;
-	if (b ==0){
-		printf ("Não pode dividir");
-		return div;
-	}
-	else{
-	
 
-	return div;	}
+
+	return div;	
 }
 
 int main(){
